@@ -353,9 +353,7 @@ section {
     font-size: var(--h2-font);
     line-height: 1;
 }
-.contact-form label{
-    padding-bottom: 5rem;
-}
+
 
 .contact-text p {
     color: var(--second-color);
@@ -363,7 +361,11 @@ section {
     line-height: 1.8;
     margin-bottom: 30px;
 }
-
+.contact-form label {
+    font-size: var(--p-font);
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
 .list {
     margin-bottom: 2.8rem;
 }
