@@ -82,8 +82,8 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/mobile-home.png)
@@ -101,7 +101,7 @@ Contact
   - ![screenshot](documentation/wireframes/mobile-contact.png)
 
 
-< / details >
+</details>
 
 ### Tablet Wireframes
 
