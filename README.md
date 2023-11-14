@@ -91,14 +91,15 @@ Home
 About
   - ![screenshot](documentation/wireframes/mobile-about.png)
 
+Services
+  - ![screenshot](documentation/wireframes/mobile-services.png)
+
+Portfolio
+  - ![screenshot](documentation/wireframes/mobile-portfolio.png)
+
 Contact
   - ![screenshot](documentation/wireframes/mobile-contact.png)
 
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
-
-etc.
-  - repeat for any remaining mobile wireframes
 
 < / details >
 
