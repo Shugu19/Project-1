@@ -128,7 +128,7 @@ Contact
 ### Desktop Wireframes
 
 <details>
-<summary> Click here to see the Desktop Wireframes 
+<summary> Click here to see the Desktop Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/desktop-home.png)
@@ -144,7 +144,7 @@ Portfolio
 
 Contact
   - ![screenshot](documentation/wireframes/desktop-contact.png)
-</summary>
+
 </details>
 
 ## Features
