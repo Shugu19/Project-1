@@ -1,131 +1,83 @@
 # [PROJECT 1](https://shugu19.github.io/Project-1)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+# Project Overview: Personal Portfolio Website
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
+Welcome to my Personal Portfolio Website – a digital space where I showcase my skills, experiences, and creative projects. This project is more than just a website; it's a dynamic representation of who I am and what I bring to the table. Designed with a sleek and user-friendly interface, my portfolio aims to provide visitors with a comprehensive understanding of my capabilities, making it a valuable resource for potential employers, collaborators, and anyone interested in my work.
 
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
+## Project Goals:
+1. **Showcasing Expertise:** The primary goal of my portfolio website is to present a detailed overview of my skills, ranging from technical proficiencies to creative talents. Through the 'About' section, visitors can gain insights into my background, education, and professional journey, creating a personal connection beyond the resume.
 
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
+2. **Highlighting Services:** The 'Services' section is dedicated to outlining the specific services I offer. Whether it's web development, graphic design, content creation, or any other skill set, this section serves as a clear guide for potential clients or collaborators, allowing them to understand the range of services I provide.
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
+3. **Portfolio Display:** The 'Portfolio' section serves as a visual gallery, showcasing a curated selection of my best work. Each project is presented with detailed descriptions, technologies used, and the challenges overcome, providing a deeper understanding of my abilities and creative approach.
+
+4. **User-Friendly Experience:** The website is designed with a clean and intuitive interface, ensuring a seamless navigation experience for visitors. From the moment they land on the homepage to exploring individual projects, the user interface prioritizes ease of use, making it accessible to a diverse audience.
+
+5. **Contact Section:** To encourage collaboration and networking, the 'Contact' section provides visitors with multiple avenues to connect with me. Whether it's for job opportunities, project inquiries, or just a friendly conversation, this section facilitates communication, fostering potential partnerships.
+
+## Target Audience:
+- **Employers and Recruiters:** The portfolio serves as a comprehensive resource for employers and recruiters to assess my skills, experience, and suitability for potential roles.
+  
+- **Clients and Collaborators:** Individuals or organizations seeking specific services can easily navigate the 'Services' and 'Portfolio' sections to evaluate my capabilities and determine if I'm the right fit for their project.
+
+- **Peers and Networking Contacts:** The website is also a tool for connecting with fellow professionals, creatives, and like-minded individuals interested in collaboration, knowledge sharing, or networking opportunities.
+
+In summary, my Personal Portfolio Website is more than just a collection of web pages; it's a strategic tool crafted to showcase my professional identity, connect with a diverse audience, and open doors to exciting opportunities. Explore the various sections to discover the skills, experiences, and projects that define me as a versatile and dedicated professional.
+
+Here's deployed site:
 https://ui.dev/amiresponsive?url=https://shugu19.github.io/Project-1
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
 
 ![screenshot](documentation/mockup.png)
 
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## UX
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-### Colour Scheme
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Explain your colours and the colour scheme.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
 :root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
+    --bg-color: #0f0e0e;
+    --second-bg-color: #202020;
+    --text-color: #fff;
+    --second-text-color: #ccc;
+    --main-color: #05b4ff;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
 }
 ```
 
 ### Typography
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Montserrat](https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800;900&family=Poppins:wght@300;400;500;600&display=swap);
+ was used for the primary headers and titles and others.
 
 ## User Stories
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to **explore the 'Home' section**, so that I can quickly understand the purpose of the website and get an overview of the creator's identity and expertise.
+
+- As a new site user, I would like to **navigate to the 'About' section**, so that I can delve deeper into the background, education, and professional journey of the website creator, establishing a personal connection.
+
+- As a new site user, I would like to **check out the 'Services' section**, so that I can understand the specific skills and services offered by the creator, helping me determine if they align with my needs or interests.
+
+- As a new site user, I would like to **explore the 'Portfolio' section**, so that I can visually experience the creator's previous work, gaining insights into their capabilities, style, and the range of projects they have undertaken.
+
+- As a new site user, I would like to **visit the 'Contact' section**, so that I can easily find ways to connect with the creator, whether for job opportunities, project collaborations, or general inquiries.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to **access the 'Portfolio' section directly from the homepage**, so that I can quickly view any new projects or updates since my last visit.
 
+- As a returning site user, I would like to **check for any updates in the 'Services' section**, so that I can stay informed about additional skills or services the creator may have added since my last visit.
+
+- As a returning site user, I would like to **explore the 'About' section periodically**, so that I can stay updated on any changes or developments in the creator's professional journey and skills.
+
+- As a returning site user, I would like to **easily find and use the contact information**, so that I can reach out to the creator for potential collaborations or follow-up discussions.
+
+- As a returning site user, I would like to **benefit from a responsive and intuitive navigation system**, so that I can efficiently explore the website and find the information I need with ease, enhancing my overall user experience.
+  
 ## Wireframes
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
