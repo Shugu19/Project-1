@@ -104,8 +104,8 @@ etc.
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/tablet-home.png)
@@ -113,21 +113,21 @@ Home
 About
   - ![screenshot](documentation/wireframes/tablet-about.png)
 
+Services
+  - ![screenshot](documentation/wireframes/tablet-services.png)
+
+Portfolio
+  - ![screenshot](documentation/wireframes/tablet-portfolio.png)
+
 Contact
   - ![screenshot](documentation/wireframes/tablet-contact.png)
 
-Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
-
-etc.
-  - repeat for any remaining tablet wireframes
-
-< / details >
+</details>
 
 ### Desktop Wireframes
 
 <details>
-<summary> Click here to see the Desktop Wireframes </summary>
+<summary> Click here to see the Desktop Wireframes 
 
 Home
   - ![screenshot](documentation/wireframes/desktop-home.png)
@@ -143,11 +143,8 @@ Portfolio
 
 Contact
   - ![screenshot](documentation/wireframes/desktop-contact.png)
-
-etc.
-  - repeat for any remaining desktop wireframes
-
-< / details >
+</summary>
+</details>
 
 ## Features
 
