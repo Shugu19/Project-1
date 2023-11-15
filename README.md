@@ -5,6 +5,7 @@
 Welcome to my Personal Portfolio Website – a digital space where I showcase my skills, experiences, and creative projects. This project is more than just a website; it's a dynamic representation of who I am and what I bring to the table. Designed with a sleek and user-friendly interface, my portfolio aims to provide visitors with a comprehensive understanding of my capabilities, making it a valuable resource for potential employers, collaborators, and anyone interested in my work.
 
 ## Project Goals:
+
 1. **Showcasing Expertise:** The primary goal of my portfolio website is to present a detailed overview of my skills, ranging from technical proficiencies to creative talents. Through the 'About' section, visitors can gain insights into my background, education, and professional journey, creating a personal connection beyond the resume.
 
 2. **Highlighting Services:** The 'Services' section is dedicated to outlining the specific services I offer. Whether it's web development, graphic design, content creation, or any other skill set, this section serves as a clear guide for potential clients or collaborators, allowing them to understand the range of services I provide.
@@ -16,8 +17,8 @@ Welcome to my Personal Portfolio Website – a digital space where I showcase my
 5. **Contact Section:** To encourage collaboration and networking, the 'Contact' section provides visitors with multiple avenues to connect with me. Whether it's for job opportunities, project inquiries, or just a friendly conversation, this section facilitates communication, fostering potential partnerships.
 
 ## Target Audience:
+
 - **Employers and Recruiters:** The portfolio serves as a comprehensive resource for employers and recruiters to assess my skills, experience, and suitability for potential roles.
-  
 - **Clients and Collaborators:** Individuals or organizations seeking specific services can easily navigate the 'Services' and 'Portfolio' sections to evaluate my capabilities and determine if I'm the right fit for their project.
 
 - **Peers and Networking Contacts:** The website is also a tool for connecting with fellow professionals, creatives, and like-minded individuals interested in collaboration, knowledge sharing, or networking opportunities.
@@ -29,28 +30,27 @@ https://ui.dev/amiresponsive?url=https://shugu19.github.io/Project-1
 
 ![screenshot](documentation/mockup.png)
 
-
 ## UX
 
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
 :root {
-    --bg-color: #0f0e0e;
-    --second-bg-color: #202020;
-    --text-color: #fff;
-    --second-text-color: #ccc;
-    --main-color: #05b4ff;
-    --big-font: 5rem;
-    --h2-font: 3rem;
-    --p-font: 1.1rem;
+  --bg-color: #0f0e0e;
+  --second-bg-color: #202020;
+  --text-color: #fff;
+  --second-text-color: #ccc;
+  --main-color: #05b4ff;
+  --big-font: 5rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
 }
 ```
 
 ### Typography
 
 - [Montserrat](https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800;900&family=Poppins:wght@300;400;500;600&display=swap);
- was used for the primary headers and titles and others.
+  was used for the primary headers and titles and others.
 
 ## User Stories
 
@@ -77,7 +77,7 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 - As a returning site user, I would like to **easily find and use the contact information**, so that I can reach out to the creator for potential collaborations or follow-up discussions.
 
 - As a returning site user, I would like to **benefit from a responsive and intuitive navigation system**, so that I can efficiently explore the website and find the information I need with ease, enhancing my overall user experience.
-  
+
 ## Wireframes
 
 ### Mobile Wireframes
@@ -86,20 +86,24 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 <summary> Click here to see the Mobile Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+
+- ![screenshot](documentation/wireframes/mobile-home.png)
 
 About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
+
+- ![screenshot](documentation/wireframes/)
 
 Services
-  - ![screenshot](documentation/wireframes/mobile-services.png)
+
+- ![screenshot](documentation/wireframes/mobile-services.png)
 
 Portfolio
-  - ![screenshot](documentation/wireframes/mobile-portfolio.png)
+
+- ![screenshot](documentation/wireframes/mobile-portfolio.png)
 
 Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
 
+- ![screenshot](documentation/wireframes/mobile-contact.png)
 
 </details>
 
@@ -109,19 +113,24 @@ Contact
 <summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
+
+- ![screenshot](documentation/wireframes/tablet-home.png)
 
 About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
+
+- ![screenshot](documentation/wireframes/tablet-about.png)
 
 Services
-  - ![screenshot](documentation/wireframes/tablet-services.png)
+
+- ![screenshot](documentation/wireframes/tablet-services.png)
 
 Portfolio
-  - ![screenshot](documentation/wireframes/tablet-portfolio.png)
+
+- ![screenshot](documentation/wireframes/tablet-portfolio.png)
 
 Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
+
+- ![screenshot](documentation/wireframes/tablet-contact.png)
 
 </details>
 
@@ -131,84 +140,82 @@ Contact
 <summary> Click here to see the Desktop Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/desktop-home.png)
+
+- ![screenshot](documentation/wireframes/desktop-home.png)
 
 About
-  - ![screenshot](documentation/wireframes/desktop-about.png)
+
+- ![screenshot](documentation/wireframes/desktop-about.png)
 
 Services
-  - ![screenshot](documentation/wireframes/desktop-services.png)
+
+- ![screenshot](documentation/wireframes/desktop-services.png)
 
 Portfolio
-  - ![screenshot](documentation/wireframes/desktop-portfolio.png)
+
+- ![screenshot](documentation/wireframes/desktop-portfolio.png)
 
 Contact
-  - ![screenshot](documentation/wireframes/desktop-contact.png)
+
+- ![screenshot](documentation/wireframes/desktop-contact.png)
 
 </details>
 
 ## Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+## Portfolio Website Features
 
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
+### Home
 
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
+The Home section serves as the landing page, offering a welcoming introduction to visitors. It provides a brief overview of my skills and expertise as a Full Stack Developer, enticing users to explore further.
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+![Home Section Screenshot](documentation/homepage-feature.png)
 
-IMPORTANT: Remember to always include a screenshot of each individual feature!
+### About
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+In the About section, users get an in-depth understanding of my background, education, and professional journey. It aims to create a personal connection, showcasing my commitment to continuous learning and technological innovation.
 
-### Existing Features
+![About Section Screenshot](documentation/aboutpage-feature.png)
 
-- **Title for feature #1**
+### Services
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+The Services section highlights my specialization areas, including Front-end Design, Back-end Development, and Full Stack expertise. It articulates the value I bring to the table for potential collaborations or projects.
 
-![screenshot](documentation/feature01.png)
+![Services Section Screenshot](documentation/services-feature.png)
 
-- **Title for feature #2**
+### Portfolio
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+The Portfolio segment showcases a collection of my notable projects. Visitors can explore diverse applications, from dynamic web apps to robust databases, providing a comprehensive view of my technical capabilities.
 
-![screenshot](documentation/feature02.png)
+![Portfolio Section Screenshot](documentation/portfolio-features.png)
 
-- **Title for feature #3**
+### Contact
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+For easy communication, the Contact section offers various channels through which visitors can reach out. It includes my phone number, email address, and a contact form, fostering seamless interaction.
 
-![screenshot](documentation/feature03.png)
+![Contact Section Screenshot](documentation/contact-feature.png)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+---
 
 ### Future Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+### Expanded Project Portfolio
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+In the near future, I aim to incorporate projects utilizing cutting-edge technologies such as Artificial Intelligence and Machine Learning algorithms. These additions will showcase my exploration and proficiency in these dynamic fields, offering visitors a glimpse into innovative applications and solutions.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+### AI-Powered Solutions
 
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
+Integrating Artificial Intelligence (AI) and Machine Learning (ML) algorithms will enable the development of intelligent applications. These projects will demonstrate my ability to harness AI for predictive analytics, natural language processing, computer vision, and other exciting domains.
+
+### Enhanced Interactivity
+
+I plan to enhance the interactivity of the website, potentially incorporating features like real-time demos or interactive components that allow visitors to engage with the showcased projects, providing a hands-on experience.
+
+### Continuous Learning
+
+As technology advances, I am committed to staying at the forefront of innovation. I'll be consistently updating my portfolio with new skills, certifications, and projects, reflecting my ongoing journey of learning and growth within the tech industry.
+
+---
 
 ## Tools & Technologies Used
 
@@ -227,24 +234,10 @@ Feel free to delete any unused items below as necessary.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
 - [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
 - [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
-- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Codeanywhere](https://codeanywhere.com) used as a cloud-based IDE for development.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
-- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+-
 
 ## Testing
 
@@ -254,7 +247,7 @@ For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- In the [GitHub repository](https://github.com/Shugu19/Project-1), navigate to the Settings tab 
+- In the [GitHub repository](https://github.com/Shugu19/Project-1), navigate to the Settings tab
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
@@ -268,13 +261,13 @@ This project can be cloned or forked in order to make a local copy on your own s
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/Shugu19/Project-1) 
-2. Locate the Code button above the list of files and click it 
+1. Go to the [GitHub repository](https://github.com/Shugu19/Project-1)
+2. Locate the Code button above the list of files and click it
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/Shugu19/Project-1.git`
+   - `git clone https://github.com/Shugu19/Project-1.git`
 7. Press Enter to create your local clone.
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
@@ -295,84 +288,82 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+### Local Development
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
+During local development:
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- **Testing Environment:** I work in a controlled local environment, typically using a development server and local databases.
+- **Debugging Tools:** Full access to debugging tools and error logs for immediate issue resolution.
+- **Unrestricted Access:** Complete freedom to modify and experiment with the codebase.
+
+### Live Deployment on GitHub Pages
+
+The live deployment on GitHub Pages introduces specific variations:
+
+- **Production Environment:** The deployment represents the production environment, where the code is optimized for performance and security.
+- **URL Restrictions:** GitHub Pages host static sites, which may differ in URL structure or routing from the local setup.
+- **Dependency Considerations:** Differences in server configurations and dependency versions might occasionally cause minor behavioral differences.
+
+---
 
 ## Credits
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+Absolutely, attribution and referencing are crucial in acknowledging the sources used in developing your portfolio website. Here's how you might address this in your README.md file:
 
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
+---
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+## Sources and References
+
+### Codebase and Templates
+
+- **Portfolio Template:** The structure and layout of my portfolio website were inspired by [(https://www.youtube.com/watch?v=7UIBIaEZVWw&t=76s)]. I followed [coding karundu] tutorial to create the foundational structure and layout, adapting it to suit my personal style and content.
+
+### External Assistance
+
+- **ChatGPT Integration:** The conversational elements or content assistance integrated into my website were generated with assistance from OpenAI's ChatGPT. Specific sections leveraging AI-generated content are duly credited to ChatGPT.
+
+### Media and Content
+
+- **Images and Media:** Images used in the portfolio were either self-created, sourced from royalty-free platforms like Unsplash and Pexels, or were images available under the Creative Commons license with appropriate attributions.
+
+### Acknowledgement
+
+I would like to extend my gratitude to the creators of the tutorials, platforms offering code snippets, and OpenAI for providing the ChatGPT tool, which have significantly contributed to the development of this portfolio. Their resources and assistance have been instrumental in shaping certain aspects of this project.
+
+---
 
 ### Content
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-| Source | Location | Notes |
-| --- | --- | --- |
-| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+| Source                                                                      | Location           | Notes                                            |
+| --------------------------------------------------------------------------- | ------------------ | ------------------------------------------------ |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder)                    | README and TESTING | tool to help generate the Markdown files         |
+| [Chris Beams](https://chris.beams.io/posts/git-commit)                      | version control    | "How to Write a Git Commit Message"              |
+| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site        | responsive HTML/CSS/JS navbar                    |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)           | contact page       | interactive pop-up (modal)                       |
+| [W3Schools](https://www.w3schools.com/css/css3_variables.asp)               | entire site        | how to use CSS :root variables                   |
+| [Flexbox Froggy](https://flexboxfroggy.com/)                                | entire site        | modern responsive layouts                        |
+| [Grid Garden](https://cssgridgarden.com)                                    | entire site        | modern responsive layouts                        |
+| [StackOverflow](https://stackoverflow.com/a/2450976)                        | quiz page          | Fisher-Yates/Knuth shuffle in JS                 |
+| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc)                      | leaderboard        | using `localStorage()` in JS for high scores     |
+| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y)                      | PP3 terminal       | tutorial for adding color to the Python terminal |
+| [strftime](https://strftime.org)                                            | CRUD functionality | helpful tool to format date/time from string     |
+| [WhiteNoise](http://whitenoise.evans.io)                                    | entire site        | hosting static files on Heroku temporarily       |
 
 ### Media
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-| Source | Location | Type | Notes |
-| --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| Source                                                           | Location     | Type  | Notes                                        |
+| ---------------------------------------------------------------- | ------------ | ----- | -------------------------------------------- |
+| [Pexels](https://www.pexels.com)                                 | entire site  | image | favicon on all pages                         |
+| [Lorem Picsum](https://picsum.photos)                            | home page    | image | hero image background                        |
+| [Unsplash](https://unsplash.com)                                 | product page | image | sample of fake products                      |
+| [Pixabay](https://pixabay.com)                                   | gallery page | image | group of photos for gallery                  |
+| [Wallhere](https://wallhere.com)                                 | footer       | image | background wallpaper image in the footer     |
+| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images         |
+| [Audio Micro](https://www.audiomicro.com/free-sound-effects)     | game page    | audio | free audio files to generate the game sounds |
+| [Videvo](https://www.videvo.net/)                                | home page    | video | background video on the hero section         |
+| [TinyPNG](https://tinypng.com)                                   | entire site  | image | tool for image compression                   |
 
 ### Acknowledgements
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
