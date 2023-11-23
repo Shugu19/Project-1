@@ -65,19 +65,54 @@ span {
     color: var(--main-color);
 }
 
-.navlist a active {
-    color: var(--main-color);
+header .navlist {
+    display: block;
 }
 
+header .navlist.active {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(1, 1, 1, 0.5);
+}
+
+header .navlist .navigation-items a{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+header .navlist.active .navigation-items{
+    background: #0f0e0e;
+    width: 600px;
+    max-width: 600px;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+}
+
+
 #menu-icon {
-    font-size: 35px;
+    font-size: 50px;
     color: var(--text-color);
     z-index: 1000;
     cursor: pointer;
-    margin-left: 25px;
+    margin-left: 20px;
     display: none;
 }
 
+#menu-icon.active{
+    color: #024264;
+    transition: 0.5s ease;
+    transform: scale(0.9);
+}
 /* header section end */
 
 /* Home Section Start */
@@ -496,6 +531,14 @@ form textarea {
 }
 
 @media (max-width: 920px) {
+    #menu-icon {
+        display: block;
+        padding-left: 2rem;
+        margin-left: 32rem;
+    }
+    header .navlist {
+        display: none;
+    }
     .about {
         grid-template-columns: 1fr;
     }
@@ -511,12 +554,16 @@ form textarea {
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 480px) {
     #menu-icon {
         display: block;
-        padding-left: 10rem;
+        padding-left: 2rem;
+        margin-left: 100px;
     }
-
+    
+    header .navlist {
+        display: none;
+    }
     .navlist {
         position: absolute;
         top: -1000px;
