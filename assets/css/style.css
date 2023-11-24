@@ -499,7 +499,7 @@ form textarea {
   background: var(--main-color);
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 1600px) {
   header {
     padding: 12px 2.5%;
     transition: 0.1s;
@@ -517,7 +517,7 @@ form textarea {
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1280px) {
   :root {
     --big-font: 4rem;
     --h2-font: 2.5rem;
@@ -537,7 +537,7 @@ form textarea {
     }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 768px) {
     #menu-icon {
         display: block;
         padding-left: 2rem;
@@ -564,7 +564,7 @@ form textarea {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 420px) {
     #menu-icon {
         display: block;
         padding-left: 2rem;
