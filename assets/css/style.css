@@ -512,6 +512,9 @@ form textarea {
     .end {
         padding: 15px 3%;
     }
+    .last-text p{
+      padding-left: 0rem;
+    }
 }
 
 @media (max-width: 1100px) {
