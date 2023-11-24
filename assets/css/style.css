@@ -28,25 +28,25 @@ body {
 
 /* Header section start */
 header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  background: transparent;
-  padding: 22px 15%;
-  transition: all 0.45s ease;
-  background-color: #202020;
-  justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding: 22px 15%;
+    transition: all 0.45s ease;
+    background-color: #202020;
+    justify-content: space-between;
 }
 
 .logo {
-  color: var(--text-color);
-  font-size: 2rem;
-  font-weight: 700;
-  display: flex;
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
 }
 
 span {
@@ -123,15 +123,15 @@ section {
 }
 
 .home {
-  position: relative;
-  height: 107vh;
-  width: auto;
-  background-image: url(../img/mypic.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+    position: relative;
+    height: 107vh;
+    width: auto;
+    background-image: url(../img/mypic.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .slide {
@@ -486,9 +486,9 @@ form textarea {
 }
 
 .last-text p {
-  font-size: var(--p-font);
-  font-size: 20px;
-  padding-left: 15rem;
+    font-size: var(--p-font);
+    font-size: 20px;
+    padding-left: 13rem;
 }
 
 .top i {
@@ -509,13 +509,9 @@ form textarea {
     padding: 110px 3% 60px;
   }
 
-  .end {
-    padding: 15px 3%;
-  }
-
-  .last-text p {
-    padding-left: 0rem;
-  }
+    .end {
+        padding: 15px 3%;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -530,26 +526,26 @@ form textarea {
     font-size: 2.5rem;
   }
 
-  .home {
-    height: 115vh;
-  }
-  .last-text p {
-    padding-left: 0rem;
-  }
+    .home {
+        height: 115vh;
+    }
+    .last-text p{
+      padding-left: 0rem;
+    }
 }
 
 @media (max-width: 920px) {
-  #menu-icon {
-    display: block;
-    padding-left: 2rem;
-    margin-left: 100px;
-  }
-  header .navlist {
-    display: none;
-  }
-  .about {
-    grid-template-columns: 1fr;
-  }
+    #menu-icon {
+        display: block;
+        padding-left: 2rem;
+        margin-left: 100px;
+    }
+    header .navlist {
+        display: none;
+    }
+    .about {
+        grid-template-columns: 1fr;
+    }
 
   .about-img img {
     width: 100%;
@@ -557,47 +553,47 @@ form textarea {
     max-width: 100%;
   }
 
-  .contact {
-    grid-template-columns: 1fr;
-  }
-  .last-text p {
-    padding-left: 0rem;
-  }
+    .contact {
+        grid-template-columns: 1fr;
+    }
+    .last-text p{
+      padding-left: 0rem;
+    }
 }
 
 @media (max-width: 500px) {
-  #menu-icon {
-    display: block;
-    padding-left: 2rem;
-    margin-left: 100px;
-  }
-
-  header .navlist {
-    display: none;
-  }
-  .home {
-    height: 70vh;
-  }
-  .home-text {
-    height: 33vh;
-  }
-  .home-text h1 {
-    font-size: 6vh;
-  }
-  .home-text h3 {
-    font-size: 3vh;
-  }
-  .navlist {
-    position: absolute;
-    top: -1000px;
-    right: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    background: var(--bg-color);
-    text-align: left;
-    transition: all 0.45s ease;
-  }
+    #menu-icon {
+        display: block;
+        padding-left: 2rem;
+        margin-left: 100px;
+    }
+    
+    header .navlist {
+        display: none;
+    }
+    .home {
+        height: 70vh;
+    }
+    .home-text{
+      height: 33vh;
+    }
+    .home-text h1{
+      font-size: 6vh;
+    }
+    .home-text h3{
+      font-size: 3vh;
+    }
+    .navlist {
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        text-align: left;
+        transition: all 0.45s ease;
+    }
 
   .navlist a {
     display: block;
@@ -615,7 +611,7 @@ form textarea {
     color: var(--text-color);
   }
 
-  .navlist.open {
-    top: 100%;
-  }
+    .navlist.open {
+        top: 100%;
+    }
 }
