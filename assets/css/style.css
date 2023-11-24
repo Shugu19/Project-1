@@ -38,12 +38,15 @@ header {
     background: transparent;
     padding: 22px 15%;
     transition: all 0.45s ease;
+    background-color: #202020;
+    justify-content: space-between;
 }
 
 .logo {
     color: var(--text-color);
     font-size: 2rem;
     font-weight: 700;
+    display: flex;
 }
 
 span {
@@ -122,7 +125,7 @@ section {
 
 .home {
     position: relative;
-    height: 1522px;
+    height: 107vh;
     width: auto;
     background-image: url(../img/mypic.jpg);
     background-size: cover;
@@ -526,7 +529,10 @@ form textarea {
     }
 
     .home {
-        height: 87vh;
+        height: 115vh;
+    }
+    .last-text p{
+      padding-left: 0rem;
     }
 }
 
@@ -534,7 +540,7 @@ form textarea {
     #menu-icon {
         display: block;
         padding-left: 2rem;
-        margin-left: 32rem;
+        margin-left: 100px;
     }
     header .navlist {
         display: none;
@@ -552,9 +558,12 @@ form textarea {
     .contact {
         grid-template-columns: 1fr;
     }
+    .last-text p{
+      padding-left: 0rem;
+    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     #menu-icon {
         display: block;
         padding-left: 2rem;
@@ -563,6 +572,18 @@ form textarea {
     
     header .navlist {
         display: none;
+    }
+    .home {
+        height: 70vh;
+    }
+    .home-text{
+      height: 33vh;
+    }
+    .home-text h1{
+      font-size: 6vh;
+    }
+    .home-text h3{
+      font-size: 3vh;
     }
     .navlist {
         position: absolute;
@@ -594,13 +615,5 @@ form textarea {
 
     .navlist.open {
         top: 100%;
-    }
-
-    .end p {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-end: 0px;
-        margin-inline-start: -208px;
     }
 }
