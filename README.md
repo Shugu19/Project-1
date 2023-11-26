@@ -187,7 +187,7 @@ The Services section highlights my specialization areas, including Front-end Des
 
 The Portfolio segment showcases a collection of my notable projects. Visitors can explore diverse applications, from dynamic web apps to robust databases, providing a comprehensive view of my technical capabilities.
 
-![Portfolio Section Screenshot](documentation/portfolio-features.png)
+![Portfolio Section Screenshot](documentation/portfolio-feature.png)
 
 ### Contact
 
