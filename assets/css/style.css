@@ -568,7 +568,7 @@ form textarea {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   #menu-icon {
     display: block;
     padding-left: 2rem;
