@@ -57,17 +57,17 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Home | About | Services | Portfolio | Contact | 
 | --- | --- | --- | --- | --- | --- |
-| ![Chrome][screenshot](documentation/browser-edge-home.png) | ![screenshot](documentation/browser-chrome-about.png) | ![screenshot](documentation/browser-chrome-services.png) | ![screenshot](documentation/browser-chrome-portfolio.png) | | ![screenshot](documentation/browser-chrome-contact.png) | Works as expected |
-| ![Firefox][screenshot](documentation/browser-firefox-home.png) | ![screenshot](documentation/browser-firefox-about.png) | ![screenshot](documentation/browser-firefox-services.png) | ![screenshot](documentation/browser-firefox-portfolio.png) | | ![screenshot](documentation/browser-firefox-contact.png) | Works as expected |
-| ![Microsoft-Edge] [screenshot](documentation/browser-edge-home.png) | ![screenshot](documentation/browser-edge-about.png) | ![screenshot](documentation/browser-edge-services.png) | ![screenshot](documentation/browser-edge-portfolio.png) | | ![screenshot](documentation/browser-edge-contact.png) | Works as expected |
+| [Chrome] |![screenshot](documentation/browser-edge-home.png) | ![screenshot](documentation/browser-chrome-about.png) | ![screenshot](documentation/browser-chrome-services.png) | ![screenshot](documentation/browser-chrome-portfolio.png) |  ![screenshot](documentation/browser-chrome-contact.png) | Works as expected |
+| [Firefox] | ![screenshot](documentation/browser-firefox-home.png) | ![screenshot](documentation/browser-firefox-about.png) | ![screenshot](documentation/browser-firefox-services.png) | ![screenshot](documentation/browser-firefox-portfolio.png) | ![screenshot](documentation/browser-firefox-contact.png) | Works as expected |
+| [Microsoft-Edge] | ![screenshot](documentation/browser-edge-home.png) | ![screenshot](documentation/browser-edge-about.png) | ![screenshot](documentation/browser-edge-services.png) | ![screenshot](documentation/browser-edge-portfolio.png) | ![screenshot](documentation/browser-edge-contact.png) | Works as expected |
 ## Responsiveness
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
 | Device | Home | About | Services | Portfolio | Contact |
 | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-navbar.png) | ![screenshot](documentation/responsive-mobile-about.png) | ![screenshot](documentation/responsive-mobile-services.png) | ![screenshot](documentation/responsive-mobile-portfolio.png) |![screenshot](documentation/responsive-mobile-contact.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) |![screenshot](documentation/responsive-tablet-navbar.png) | ![screenshot](documentation/responsive-tablet-about.png) | ![screenshot](documentation/responsive-tablet-services.png) | ![screenshot](documentation/responsive-tablet-portfolio.png) | ![screenshot](documentation/responsive-tablet-contact.png) | Works as expected |
+| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-about.png) | ![screenshot](documentation/responsive-mobile-services.png) | ![screenshot](documentation/responsive-mobile-portfolio.png) |![screenshot](documentation/responsive-mobile-contact.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-about.png) | ![screenshot](documentation/responsive-tablet-services.png) | ![screenshot](documentation/responsive-tablet-portfolio.png) | ![screenshot](documentation/responsive-tablet-contact.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-about.png) | ![screenshot](documentation/responsive-desktop-services.png) | ![screenshot](documentation/responsive-desktop-portfolio.png) | ![screenshot](documentation/responsive-desktop-contact.png) | Works as expected |
 
 
