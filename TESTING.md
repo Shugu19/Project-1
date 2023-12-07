@@ -49,7 +49,14 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FShugu19.github.io%2FProject-1) | ![screenshot](documentation/css-validation.png) | Pass: No Errors |
-| x | x | x | 
+
+### js
+
+I have used the recommended [jshint Validator](https://jshint.com/) to validate all of my CSS files.
+
+| File | Jigsaw URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| script.js | [Jshint](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FShugu19.github.io%2FProject-1) | ![screenshot](documentation/js-validation.png) | Pass: No Errors |
 
 ## Browser Compatibility
 

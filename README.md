@@ -315,7 +315,7 @@ Absolutely, attribution and referencing are crucial in acknowledging the sources
 
 ### Media and Content
 
-- **Images and Media:** Images used in the portfolio were either self-created, sourced from royalty-free platforms like Unsplash and Pexels, or were images available under the Creative Commons license with appropriate attributions.
+- **Images and Media:** The images featured in the portfolio were exclusively crafted by me. I dedicated effort and creativity to bring these visuals to life, ensuring they authentically represent my work and vision. This personalized touch adds a unique perspective to the portfolio's content.
 
 ### Acknowledgement
 
@@ -327,37 +327,18 @@ I would like to extend my gratitude to the creators of the tutorials, platforms 
 
 | Source                                                                      | Location           | Notes                                            |
 | --------------------------------------------------------------------------- | ------------------ | ------------------------------------------------ |
-| [Markdown Builder](https://tim.2bn.dev/markdown-builder)                    | README and TESTING | tool to help generate the Markdown files         |
-| [Chris Beams](https://chris.beams.io/posts/git-commit)                      | version control    | "How to Write a Git Commit Message"              |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site        | responsive HTML/CSS/JS navbar                    |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)           | contact page       | interactive pop-up (modal)                       |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp)               | entire site        | how to use CSS :root variables                   |
-| [Flexbox Froggy](https://flexboxfroggy.com/)                                | entire site        | modern responsive layouts                        |
-| [Grid Garden](https://cssgridgarden.com)                                    | entire site        | modern responsive layouts                        |
-| [StackOverflow](https://stackoverflow.com/a/2450976)                        | quiz page          | Fisher-Yates/Knuth shuffle in JS                 |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc)                      | leaderboard        | using `localStorage()` in JS for high scores     |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y)                      | PP3 terminal       | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org)                                            | CRUD functionality | helpful tool to format date/time from string     |
-| [WhiteNoise](http://whitenoise.evans.io)                                    | entire site        | hosting static files on Heroku temporarily       |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder)                    | README and TESTING | tool to help generate the Markdown files |
+
 
 ### Media
 
 | Source                                                           | Location     | Type  | Notes                                        |
 | ---------------------------------------------------------------- | ------------ | ----- | -------------------------------------------- |
-| [Pexels](https://www.pexels.com)                                 | entire site  | image | favicon on all pages                         |
-| [Lorem Picsum](https://picsum.photos)                            | home page    | image | hero image background                        |
-| [Unsplash](https://unsplash.com)                                 | product page | image | sample of fake products                      |
-| [Pixabay](https://pixabay.com)                                   | gallery page | image | group of photos for gallery                  |
-| [Wallhere](https://wallhere.com)                                 | footer       | image | background wallpaper image in the footer     |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images         |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects)     | game page    | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/)                                | home page    | video | background video on the hero section         |
-| [TinyPNG](https://tinypng.com)                                   | entire site  | image | tool for image compression                   |
+| [Boxicon](https://boxicons.com/)                                 | entire site  | image | favicon on all pages                         |
+| [Images]()                                 | entire site  | image | All images are my own files, I am the sole owner of every image used on this site.                         |
 
 ### Acknowledgements
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.

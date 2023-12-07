@@ -1,16 +1,16 @@
-const menuBtn = document.getElementById("menu-icon");
-const navBar = document.getElementById('navbar');
-const navLinks = document.querySelectorAll('.navlink'); // Assuming '.navlink' is the class for your navigation links
+var menuBtn = document.getElementById("menu-icon");
+var navBar = document.getElementById('navbar');
+var navLinks = document.querySelectorAll('.navlink');
 
-
-menuBtn.addEventListener("click", () => {
+menuBtn.addEventListener("click", function() {
     menuBtn.classList.toggle("active");
     navBar.classList.toggle("active");
-})
-// Adding click event listeners to each navigation link
-navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-        navBar.classList.remove('active'); // Close the navigation bar when a link is clicked
-        menuBtn.classList.remove('active'); // Remove the 'active' class from menu button if needed
-    });
 });
+
+// Adding click event listeners to each navigation link
+for (var i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener('click', function() {
+        navBar.classList.remove('active');
+        menuBtn.classList.remove('active');
+    });
+}
