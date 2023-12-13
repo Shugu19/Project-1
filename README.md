@@ -91,7 +91,7 @@ Home
 
 About
 
-- ![screenshot](documentation/wireframes/)
+- ![screenshot](documentation/wireframes/mobile-about.png)
 
 Services
 
@@ -228,7 +228,6 @@ As technology advances, I am committed to staying at the forefront of innovation
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
--
 
 ## Testing
 
@@ -297,17 +296,11 @@ The live deployment on GitHub Pages introduces specific variations:
 
 ---
 
-## Credits
-
-Absolutely, attribution and referencing are crucial in acknowledging the sources used in developing your portfolio website. Here's how you might address this in your README.md file:
-
----
-
 ## Sources and References
 
 ### Codebase and Templates
 
-- **Portfolio Template:** The structure and layout of my portfolio website were inspired by [(https://www.youtube.com/watch?v=7UIBIaEZVWw&t=76s)]. I followed [coding karundu] tutorial to create the foundational structure and layout, adapting it to suit my personal style and content.
+- **Portfolio Template:** The structure and layout of my portfolio website were inspired by [Coding Karundu](https://www.youtube.com/watch?v=7UIBIaEZVWw&t=76s). I followed [coding karundu] tutorial to create the foundational structure and layout, adapting it to suit my personal style and content.
 
 ### External Assistance
 
@@ -334,8 +327,7 @@ I would like to extend my gratitude to the creators of the tutorials, platforms 
 
 | Source                                                           | Location     | Type  | Notes                                        |
 | ---------------------------------------------------------------- | ------------ | ----- | -------------------------------------------- |
-| [Boxicon](https://boxicons.com/)                                 | entire site  | image | favicon on all pages                         |
-| [Images]()                                 | entire site  | image | All images are my own files, I am the sole owner of every image used on this site.                         |
+| Images                                 | entire site  | image | All images are my own files, I am the sole owner of every image used on this site.                         |
 
 ### Acknowledgements
 
