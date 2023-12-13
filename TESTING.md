@@ -94,12 +94,5 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 - As a new site user, I would like to **visit the 'Contact' section**, so that I can easily find ways to connect with the creator, whether for job opportunities, project collaborations, or general inquiries.
 ![Contact Section Screenshot](documentation/contact-feature.png)
 
-- As a returning site user, I would like to **access the 'Portfolio' section directly from the homepage**, so that I can quickly view any new projects or updates since my last visit.
-
-- As a returning site user, I would like to **check for any updates in the 'Services' section**, so that I can stay informed about additional skills or services the creator may have added since my last visit.
-
-- As a returning site user, I would like to **explore the 'About' section periodically**, so that I can stay updated on any changes or developments in the creator's professional journey and skills.
-
-- As a returning site user, I would like to **easily find and use the contact information**, so that I can reach out to the creator for potential collaborations or follow-up discussions.
-
 - As a returning site user, I would like to **benefit from a responsive and intuitive navigation system**, so that I can efficiently explore the website and find the information I need with ease, enhancing my overall user experience.
+![screenshot](documentation/mockup.png)
