@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 var menuBtn = document.getElementById("menu-icon");
 var navBar = document.getElementById('navbar');
 var navLinks = document.querySelectorAll('.navlink');
